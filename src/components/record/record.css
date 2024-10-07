@@ -1,0 +1,52 @@
+.record-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 274px;
+  transition: all 0.5s ease;
+}
+
+.record-card:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.record-text-h {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30.26px;
+  text-align: center;
+  padding: 57px 0 25px;
+}
+
+.record-card p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.36px;
+  text-align: center;
+}
+
+@media screen and (max-width:960px) {
+  .record-card {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .record-card {
+    margin: 20px 0 !important;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .record-card {
+    margin: 40px 0 !important;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .record-card {
+    margin: 40px 0 !important;
+  }
+}
